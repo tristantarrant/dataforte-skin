@@ -1,0 +1,89 @@
+body {
+	background: #E9EEF3;
+}
+
+div#banner {
+	background: #DDE3E9;
+	padding: 5px;
+	border-top: 0;
+	border-bottom: 1px solid #C8D0D9;
+	color: #5E6B75;
+	text-shadow: white 0.1em 0.1em 0.2em;
+}
+
+#breadcrumbs {
+	border-bottom: 0;
+	border-top: 1px solid #F2F7FC;
+	background: #E9EEF3;
+	color: black;
+}
+
+#leftColumn {
+	background: white;
+	border: 0;
+	-moz-border-radius-bottomleft: 0.5em;
+	-moz-border-radius-bottomright: 0.5em;
+	-moz-border-radius-topleft: 0.5em;
+	-moz-border-radius-topright: 0.5em;
+}
+
+#bodyColumn {
+	margin: 0px 10px 10px 180px;
+	background: white;
+	padding: 8px;
+	-moz-border-radius-bottomleft: 0.5em;
+	-moz-border-radius-bottomright: 0.5em;
+	-moz-border-radius-topleft: 0.5em;
+	-moz-border-radius-topright: 0.5em;
+}
+
+.section {
+	padding: 4px 4px 0px 4px;
+}
+
+h2 {
+	border: 0px;
+	border-bottom: 1px solid #BBBBBB !important;
+	color: #222222;
+	font-weight: bold;
+	margin: 0.5em 0 0 !important;
+	padding-bottom: 0.4em;
+	background: none;
+}
+
+h5 {
+	background: #DDDDDD;
+	color: #192839;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 2em 0 0.4em;
+	padding: 0.3em 10px;
+	text-transform: uppercase;
+}
+
+div#leftColumn strong {
+	border-bottom: 1px solid #EEEEEE;
+	color: #0F67A1;
+	display: block;
+	font-size: 1.2em;
+	line-height: 1.4;
+	margin: 0;
+	padding: 0.2em 10px;
+}
+
+div#leftColumn a {
+	border-bottom: 1px solid #EEEEEE;
+	color: #0F67A1;
+	display: block;
+	font-size: 1.2em;
+	line-height: 1.4;
+	margin: 0;
+	padding: 0.2em 10px;
+	position: relative;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: #0F67A1 !important;
+}
