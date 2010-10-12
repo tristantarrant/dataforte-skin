@@ -3,4 +3,9 @@
   <groupId>net.dataforte.maven.skins</groupId>
   <artifactId>dataforte-skin</artifactId>
   <version>1-SNAPSHOT</version>
+  <scm>
+  	<connection>scm:git:http://github.com/tristantarrant/dataforte-skin.git</connection>
+  	<developerConnection>scm:git:ssh://git@github.com/tristantarrant/dataforte-skin.git</developerConnection>
+  	<url>http://github.com/tristantarrant/dataforte-skin</url>
+  </scm>
 </project>
