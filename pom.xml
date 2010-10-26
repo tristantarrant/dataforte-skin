@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.dataforte.maven.skins</groupId>
 	<artifactId>dataforte-skin</artifactId>
-	<version>2</version>
+	<version>3-SNAPSHOT</version>
 
 	<distributionManagement>
 		<site>
