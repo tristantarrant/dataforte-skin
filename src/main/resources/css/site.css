@@ -1,5 +1,10 @@
 body {
 	background: #E9EEF3;
+	font-family: sans-serif;
+}
+
+div#bannerLeft {
+	float: left;
 }
 
 div#banner {
@@ -87,3 +92,12 @@ a {
 	text-decoration: none;
 	color: #0F67A1 !important;
 }
+
+table tr:first-child {
+	background: #DDE3E9;
+}
+
+table td {
+        border-bottom: 1px solid #C8D0D9;
+}
+

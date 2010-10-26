@@ -1,11 +1,21 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>net.dataforte.maven.skins</groupId>
-  <artifactId>dataforte-skin</artifactId>
-  <version>2-SNAPSHOT</version>
-  <scm>
-  	<connection>scm:git:http://github.com/tristantarrant/dataforte-skin.git</connection>
-  	<developerConnection>scm:git:ssh://git@github.com/tristantarrant/dataforte-skin.git</developerConnection>
-  	<url>http://github.com/tristantarrant/dataforte-skin</url>
-  </scm>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>net.dataforte.maven.skins</groupId>
+	<artifactId>dataforte-skin</artifactId>
+	<version>2-SNAPSHOT</version>
+
+	<distributionManagement>
+		<site>
+			<id>ftp.dataforte.net</id>
+			<name>Dataforte site</name>
+			<url>ftp://ftp.dataforte.net/www.dataforte.net/software/</url>
+		</site>
+	</distributionManagement>
+	
+	<scm>
+		<connection>scm:git:http://github.com/tristantarrant/dataforte-skin.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/tristantarrant/dataforte-skin.git</developerConnection>
+		<url>http://github.com/tristantarrant/dataforte-skin</url>
+	</scm>
 </project>
